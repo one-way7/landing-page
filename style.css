@@ -125,7 +125,7 @@ body {
 
 
 .info_section {
-    padding: 50px 0 120px 0;
+    padding: 50px 0 100px 0;
 }
 
 .info_title {
@@ -149,54 +149,39 @@ body {
     border-radius: 2px;
 }
 
+/* Testimonial section */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.testimonial-section {
+.testimonial_section {
     padding: 120px 0 60px;
     margin: 0 auto;
     background-color: #E5E7EB;
 }
 
-.testimonial-wrapper {
+.testimonial_wrapper {
     margin: 0 105px;
     display: flex;
     flex-direction: column;
     align-items: end;
 }
 
-.testimonial-text {
+.testimonial_text {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
 }
 
-.testimonial-author {
+.testimonial_author {
     font-weight: 700;
     color: #1F2937;
 }
 
-.action-section {
+/* Action section */
+
+.action_section {
     padding: 80px;
 }
 
-.action-wrapper {
+.action_wrapper {
     display: flex;
     justify-content: space-between;
     padding: 50px 110px;
@@ -205,26 +190,21 @@ body {
     border-radius: 8px;
 }
 
-.action-text {
+.action_text {
     color: #F9FAF8;
     font-weight: 700;
     font-size: 20px;
 }
 
-.action-descr {
+.action_descr {
     color: #E5E7EB;
 }
 
-.action-btn {
-    width: 110px;
-    height: 30px;
+.action_btn {
     color: #F9FAF8;
-    font-size: 16px;
-    font-weight: 900;
     background-color: #3882F6;
     border: 2px solid #F9FAF8;
     border-radius: 8px;
-    cursor: pointer;
 }
 
 .footer {
